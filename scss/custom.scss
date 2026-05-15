@@ -38,4 +38,36 @@ $secondary: #d8c4ff;
   }
 }
 
+.nav-link {
+  white-space: nowrap;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #f8f4ff 0%, #ffffff 45%, #efe2ff 100%);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(138, 77, 232, 0.15);
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #8a4de8;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.text-center h2::after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @import "bootstrap/scss/bootstrap";
