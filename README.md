@@ -1,6 +1,14 @@
 # my_curriculum_vitae
 mon CV fait avec Bootstrap
 
+
+Pour visualiser le CV contenu dans le fichier index.html :
+
+Après avoir récupéré le projet, il faut:
+- installer les ressources indispensables avec  la commande npm install dans le terminal
+- lancer avec npm start , 
+- ouvrir dans le navigateur le lien qui s'affichera.
+
 Il contient plusieurs parties :
 
 - une section d’accueil ;
@@ -18,11 +26,5 @@ j ai utilisé:
 - Bootstrap comme framework
 - Bootstrap Icons pour embellir la page avec des icones adaptées 
 - Vite 
-- Git et GitHub pour la mise en ligne
+- Git et GitHub pour la mise en ligne.
 
-Pour visualiser le CV :
-
-après avoir récupéré le projet, il faut:
-- installer les ressources indispensables avec  la commande npm install 
-- lancer avec npm start, 
-- ouvrir dans le navigateur le lien qui s'affichera.
